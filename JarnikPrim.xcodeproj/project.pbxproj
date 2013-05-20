@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B439C89A174A310900D18679 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B439C899174A310900D18679 /* main.cpp */; };
 		B439C89C174A310900D18679 /* JarnikPrim.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B439C89B174A310900D18679 /* JarnikPrim.1 */; };
+		B439C8A4174A312900D18679 /* CGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B439C8A2174A312900D18679 /* CGraph.cpp */; };
+		B439C8A7174A316D00D18679 /* t_edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B439C8A5174A316D00D18679 /* t_edge.cpp */; };
+		B439C8AA174A317E00D18679 /* t_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B439C8A8174A317E00D18679 /* t_node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +29,14 @@
 
 /* Begin PBXFileReference section */
 		B439C896174A310900D18679 /* JarnikPrim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JarnikPrim; sourceTree = BUILT_PRODUCTS_DIR; };
-		B439C899174A310900D18679 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B439C899174A310900D18679 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		B439C89B174A310900D18679 /* JarnikPrim.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JarnikPrim.1; sourceTree = "<group>"; };
+		B439C8A2174A312900D18679 /* CGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGraph.cpp; sourceTree = "<group>"; };
+		B439C8A3174A312900D18679 /* CGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGraph.h; sourceTree = "<group>"; };
+		B439C8A5174A316D00D18679 /* t_edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t_edge.cpp; sourceTree = "<group>"; };
+		B439C8A6174A316D00D18679 /* t_edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_edge.h; sourceTree = "<group>"; };
+		B439C8A8174A317E00D18679 /* t_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t_node.cpp; sourceTree = "<group>"; };
+		B439C8A9174A317E00D18679 /* t_node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				B439C899174A310900D18679 /* main.cpp */,
+				B439C8A2174A312900D18679 /* CGraph.cpp */,
+				B439C8A3174A312900D18679 /* CGraph.h */,
+				B439C8A5174A316D00D18679 /* t_edge.cpp */,
+				B439C8A6174A316D00D18679 /* t_edge.h */,
+				B439C8A8174A317E00D18679 /* t_node.cpp */,
+				B439C8A9174A317E00D18679 /* t_node.h */,
 				B439C89B174A310900D18679 /* JarnikPrim.1 */,
 			);
 			path = JarnikPrim;
@@ -118,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B439C89A174A310900D18679 /* main.cpp in Sources */,
+				B439C8A4174A312900D18679 /* CGraph.cpp in Sources */,
+				B439C8A7174A316D00D18679 /* t_edge.cpp in Sources */,
+				B439C8AA174A317E00D18679 /* t_node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +234,7 @@
 				B439C8A1174A310900D18679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
