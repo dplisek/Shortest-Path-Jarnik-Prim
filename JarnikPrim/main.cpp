@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <list>
+#include <climits>
 
 using namespace std;
 
@@ -122,7 +123,7 @@ void JP_MST(CGraph& g, const int startIndex) {
 			adjElem.parent = nearestElem.nodeIndex;
 			adjElem.distance = edgeValue;
 			heap->erase(heap->begin() + adjElemIndex);
-			heap->push_back(adjElem);
+			heap->insert(heap->begin() + adjElemIndex, adjElem);
 		}
 		delete adj;
 	}
